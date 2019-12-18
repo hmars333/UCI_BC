@@ -1,14 +1,17 @@
-var samples= d3.json("./samples.json").then(function(sampleData){
-    console.log(sampleData);
+var sample= d3.json("../samples.json", function(data){
+  console.log(sample);
 })
 
-var oTU= samples.samples.otu_ids;
-var otuValues= samples.samples.sample_values;
-var otuIndiv= samples.names;
+
+// var oTU= samples.samples.otu_ids;
+// console.log(oTU);
+// var otuValues= samples.samples.sample_values;
+// console.log(otuValues);
+// var otuIndiv= samples.names;
+// console.log(otuIndiv);
 
 
-forEach indiv in otuIndiv
-function topTen(OTUs) {
-    return otuValues.slice(0,11), 
-  }
-  
+// sampleData.forEach(function(data){
+//   return sampleData.slice(0,11);
+// })
+
